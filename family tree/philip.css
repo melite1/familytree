@@ -1,0 +1,115 @@
+
+body {
+	margin: 0;
+}
+	
+.header {
+	background-color: #283593;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 45px;
+	flex-wrap: wrap;
+		
+}
+.nav a {
+   color: #fff;
+   text-decoration: none;
+   display: block;
+   transition: all 0.5s ease-out;
+	   
+}
+.nav a:hover {
+	color: #c5cae9;
+	transform: rotate(360deg);
+}
+
+.nav {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	
+}
+	
+.nav li {
+	margin-left: 20px;
+	
+}	
+
+.welcome {
+	max-width; 760px;
+	background-color: #c5cae9;
+	padding: 60px 45px;
+	display: flex;
+	justify-content: center;
+}
+
+.welcome-2 {
+	max-width: 760px;
+	font-size: 1rem;
+	margin: 0;
+	
+}
+
+.welcome p {
+	font-size: 1.18rem;
+	line-height: 1.6;
+}
+
+.explore {
+	background-color: #3949ab;
+	color: #fff;
+	text-decoration: none;
+	padding: 12px 20px;
+	border-radius: 8px;
+	font-size: 1.18;
+}
+
+
+.pictures {
+	background-color: #e8eaf6;
+	display: block;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-column-gap: 20px, 20px;
+	padding: 10px, 10px,;
+	
+	
+}
+
+
+
+img {
+	width:300px; 
+	height: 320px;
+}
+
+
+.pictures1 {
+	padding-top: 50px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-column-gap: 50px;
+	
+	
+}
+
+.pictures1 a {
+	
+}
+
+.chioma {
+	background-color: #ff9696;
+	max-width: 1200px;
+	justify-content: auto;
+	margin: 0 auto;
+}
+
+
+.chikids {
+	display: grid;
+	grid-template-columns: 1fr 1fr  1fr;
+	grid-column-gap: 40px,
+	
+}
